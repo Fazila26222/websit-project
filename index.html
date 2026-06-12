@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Main page</title>
+    <!--css and bootstrap file-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variable.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--icons and fonts file-->
+    <link rel="stylesheet" href="icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="icons/fonts/bootstrap-icons.woff">
+    <link rel="stylesheet" href="fonts/Vazirmatn-Regular.ttf">
+   
+</head>
+<body>
+    <!--Header-->
+        <div id="top-header">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+                    <!-- contact -->
+                    <div class="d-flex flex-wrap align-items-center gap-3">
+                        <a href="mailto:darybi@gmail.com">
+                            <i class="bi bi-envelope-fill me-1"></i>
+                            daryabi2020@gmail.com
+                        </a>
+
+                        <a href="tel:0774480184">
+                            <i class="bi bi-telephone-fill me-1"></i>
+                            0798375254
+                        </a>
+                    </div>
+                    <!-- icons -->
+                     <div class="top-social d-flex gap-2">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="linkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" aria-label="Youtube"><i class="bi bi-youtube"></i></a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    
+     <!-- start Navbar-->
+
+    <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="img/logo.jpg" alt=""></a>
+            <!--Mobile-->
+            <button class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navOffcanvas"
+            aria-controls="navOffcanvas"
+            >
+            <i class="bi bi-list"
+            style="font-size: 1.6rem; color:#111827 ;"
+            ></i>
+        </button>
+        <!--disktop nav-->
+        <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav align-items-center gap-1 me-3">
+                <li class="nav-item">
+                    <a href="" class="nav-link active">خانه</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">خدمات ما</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link ">نرخ اسعار ما</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">درباره ما</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">تماس با ما</a>
+                </li>
+            </ul>
+            <div class="d-flex gap-2">
+                <a href="#" class="btn btn-nav-login">ورود</a>
+                <a href="#" class="btn btn-nav-register">ثبت نام</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!--Mobile menu-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="navOffcanvas">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">شرکت صرافی و خدماتی پولی دریابی</h5>
+
+            <button 
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="offcanvas"
+            ></button>
+            
+        </div>
+        <div class="offcanvas-body">
+             <ul class="navbar-nav gap-1 mb-4">
+                <li class="nav-item">
+                    <a href="" class="nav-link active">خانه</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">خدمات ما</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link ">نرخ اسعار ما</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">درباره ما</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link">تماس با ما</a>
+                </li>
+            </ul>
+            <div class="d-flex gap-2">
+                <a href="#" class="btn btn-nav-login">ورود</a>
+                <a href="#" class="btn btn-nav-register">ثبت نام</a>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section-->
+     <section class="hero">
+        <div class="container">
+            <div class="hero-content d-flex flex-wrap align-items-center justify-content-center text-align-center">
+                <h1>شرکت صرافی و خدماتی پولی دریابی</h1>
+                <p>شرکت صرافی و خدماتی پولی دریابی با ارایه خدمات  پولی,
+                 انتقالات مالی و تبادله اسعاربا معیارهای حرفه ای و مطمین.
+                ما با اعتماد, سرعت و امنیت در خدمت مشتریان گرامی هستیم.
+                </p>
+                <a href="#">بیشتر بدانید</a>
+            </div>
+        </div>
+     </section>
+
+     <!-- Abuot More -->
+
+    <section class="hero-con">
+        <div class="container">
+            <div class="heading d-flex flex-wrap align-items-center justify-content-center">
+                <h1>چرا مشتریان ما را انتخاب مینمایند؟</h1>
+                <p>شرکت صرافی و خدماتی پولی دریابی با سال ها تجربه و تعهد به ارایه خدماتی مالی مطمین,
+                    سریع و شفاف, همواره در خدمت هموطنان عزیز و مشتریان گرامی قرار دارد.
+                    این شرکت با بهره گیری از اصول امانت داری, صداقت و مسیولیت پذیری
+                    ,خدمات متنوعی را در زمینه انتقالات پولی داخلی و بین المللی, 
+                    خرید و فرش اسعار خارجی و سایر خدمات مالی ارایه می نماید.
+                </p>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                <div class="card">
+                    <div class="social-icon">
+                        <a href="ُ#"><i class="bi bi-lightning-charge-fill"></i></a>
+                    <div class="info">
+                         <h3>انتقال سریع پول</h3>
+                         <p>ارسال و دریافت پول با سرعت, امنیت و اطمینان کامل</p>
+                    </div>
+                </div>
+                </div>
+                </div> 
+                
+                <div class="col-md-4">
+                  <div class="card">
+                    <div class="social-icon">
+                        <a href="ُ#"><i class="bi bi-currency-exchange" style="color: #d4a017;"></i></a>
+                    <div class="info">
+                         <h3>نرخ ها مناسب ارز</h3>
+                         <p>ما بهترین نرخ های تبادله را برای مشتریان خود فراهم میکنیم</p>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card">
+                    <div class="social-icon">
+                        <a href="ُ#"><i class="bi bi-shield-check"></i></a>
+                    <div class="info">
+                         <h3>اعتماد مشتریان</h3>
+                         <p>رضایت و اعتماد مشتریان, سرمایه اصلی ماست.</p>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        <!--
+
+        <div class="hero-stats">
+                <div class="row g-3">
+                    <div class="col-sm-4">
+                        <div class="stat card">
+                            <div class="stat-num">30+</div>
+                            <div class="stat-lable">
+                                <i class="bi bi-person-workspace me-1"></i> تعداد کارمندان
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-sm-4">
+                        <div class="stat card">
+                            <div class="stat-num">500+</div>
+                            <div class="stat-lable">
+                                <i class="bi bi-people-fill me-1"></i> تعداد مشتریان
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-sm-4">
+                        <div class="stat card">
+                            <div class="stat-num">30000+</div>
+                            <div class="stat-lable">
+                                <i class="bi bi-award-fill me-1"></i> سال تجربه
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="hero-stat">
+                    <div class="row g-3">
+                        <div class="col-sm-3">
+                        <div class="stats-card">
+                            <div class="stat-lable">
+                                <i class="bi bi-globe me-1"></i> <br>  حواله بین المللی <br>
+                                <p>ارسال سریع و مطمین پول به داخل وخارج کشور</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-sm-3">
+                        <div class="stats-card">
+                            <div class="stat-lable">
+                                <i class="bi bi-arrow-left-right me-1"></i> <br>  تبدیل اسعار<br>
+                                <p>تبدیل اسعار مختلف با نرخ مناسب و به روز</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-sm-3">
+                        <div class="stats-card">
+                            <div class="stat-lable">
+                                <i class="bi bi-bank me-1"></i> <br>  خدمات مالی<br>
+                                <p>ارایه خدمات مالی با سرعت و امنیت بالا</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-sm-3">
+                        <div class="stats-card">
+                            <div class="stat-lable">
+                                <i class="bi bi-cash-stack me-1"></i> <br>  خرید و فروش اسعار<br>
+                                <p>ارایه خدمات خرید و فروش ارز با بهترین نرخ و اطمینان کامل</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                       <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-hero"> خدمات </a>
+                    </div>
+                    </div>
+                </div>
+            </div>           
+    </section>   
+   
+    
+    
+
+</body>
+
+<!--js file-->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>

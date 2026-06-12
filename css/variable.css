@@ -1,0 +1,37 @@
+
+
+
+
+:root{
+    --primary: #0f172a;
+    --primary-hover: #1e293b;
+    --secondary:   #d4a017;
+    --secondary-light: #e6c35c;
+
+    --bg-section: #dbd5db;
+    --bg-card: #217dfd;
+    --bg-main:#f8face;
+    --text-primary: #1e293b;
+    --text-scendary: #64748b;
+    
+    --background-linear: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+
+    --bg-navbar: #0f172a;
+    --bg-header:#05122b;
+
+    --bg-footer: #0b1120;
+    --text-footer: #cbd5e1;
+    --footer-link:#60a5fa;
+    
+    --border: #e2e8f0;
+
+
+    --shadow-sm: 0 1px 3px rgba(37,99,235,.08),0 1px 2px rgba(0,0,0,.06);
+    --shadow-md: 0 4px 16px rgba(37,99,235,.12),0 2px 6px rgba(0,0,0,.06);
+    --shadow-lg: 0 10px 40px rgba(2, 16, 46, 0.16),0 4px 12px rgba(39, 26, 26, 0.08);
+
+    --radius: 14px;
+
+    --transition: .28s cubic-bezier(.4, 0, .2, 1);
+    
+}
