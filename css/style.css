@@ -267,7 +267,7 @@ a{
     border-radius: 30%;
 }
 .divider-section{
-    background: var(--bg-card);
+    background: var(--footer-link);
     padding: 40px 20px;
     border-radius: 5px;
     margin-top: 30px;
@@ -289,5 +289,65 @@ a{
     font-weight: 600;
     text-align: center;
     align-items: center;
+    justify-content: center;
+}
+/* ================
+   Branches section
+   ================
+*/
+#Branches{
+    background-color: var(--bg-main);
+}
+.section-tital{
+    margin-top: 40px;
+    font-size: 1.50rem;
+    font-weight: 400;
+}
+.section-Sub{
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+}
+.btn-nav-login{
+    background: var(--secondary-light) !important;
+}
+.bran-card{
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1.5px solid var(--border);
+    transition: all var(--transition);
+    height: 100%;
+}
+.bran-card:hover{
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-6px);
+    border-color: rgba(37, 99, 235, 0.25);
+}
+.bran-body{
+    padding: 20px;
+}
+/*
+.bran-body.locaton-icon{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+    */
+.barn-title{
+    font-size: 0.79rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 1.4px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--text-primary);
+}
+.bran-sub{
+    font-size: 0.82rem;
+    color: var(--text-scendary);
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
     justify-content: center;
 }
