@@ -3,21 +3,21 @@
 
 
 :root{
-    --primary: #072261;
-    --primary-hover: #0b2f69;
+    --primary: #0943ca;
+    --primary-hover: #0346b1;
     --secondary:   #d4a017;
     --secondary-light: #e6c35c;
 
     --bg-section: #dbd5db;
-    --bg-card: #c9dbf3;
+    --bg-card: #63a3f7;
     --bg-main:#f8face;
     --text-primary: #1e293b;
     --text-scendary: #64748b;
     
     --background-linear: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
 
-    --bg-navbar: #152c63;
-    --bg-header:#092250;
+    --bg-navbar: #0c53fa;
+    --bg-header:#00379e;
 
     --bg-footer: #0b1120;
     --text-footer: #cbd5e1;
