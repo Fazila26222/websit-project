@@ -10,7 +10,7 @@ body{
     direction: rtl;
     text-align: right;
     font-family: 'DM Sans', sans-serif;
-    background-color: var(--bg-section) !important;
+    background-color: var(--body) !important;
     color: #000;
     font-size: 16px;
     line-height: 1.65;
@@ -399,6 +399,7 @@ a{
     transition: all var(--transition);
     height: 100%;
     margin-top: 20px;
+    display: block;
 }
 .stats-counter:hover{
     box-shadow: var(--shadow-lg);
@@ -411,7 +412,7 @@ a{
     border-radius: 30%;
     width: 40px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 20px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -428,14 +429,104 @@ a{
     color: var(--bg-header);
     font-size: 1.35rem;
     font-weight: 600;
-    align-items: center !important;
-    justify-content: center !important;
-    text-align: center !important;
 }
 .lbl{
     color: #000;
     font-size: 0.88rem;
-    align-items: center !important;
-    justify-content: center !important;
-    text-align: center !important;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+#footer{
+    background:  rgba(53, 55, 80, 0.15) !important;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+.footer-content{
+    font-size: 0.98rem;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #000;
+}
+.links{
+   font-size: 0.98rem;
+    margin-top: 20px;
+}
+.links h6{
+    color: #000;
+    font-size: 0.98rem;
+    font-weight: 700;
+}
+.links a{
+    color: #333 !important;
+    font-size: 0.98rem;
+    font-weight: 300;
+}
+.links a:hover{
+    color: var(--secondary) !important;
+    transform: translateY(-2px);
+}
+.footer-location{
+    font-size: 0.98rem;
+    margin-top: 20px;
+}
+.footer-location h6{
+    color: #000;
+    font-size: 0.98rem;
+    font-weight: 700;
+}
+.footer-location p{
+    color: #333;
+    font-size: 0.98rem;
+    font-weight: 500;
+}
+.footer-location a{
+    color: #333 !important;
+    font-size: 0.98rem;
+    font-weight: 300;
+}
+.footer-location a:hover{
+    color: var(--secondary) !important;
+    transform: translateY(-2px) !important;
+}
+.time{
+   font-size: 0.98rem;
+    margin-top: 20px; 
+}
+.time h6{
+    color: #000;
+    font-size: 0.98rem;
+    font-weight: 700; 
+}
+.time-work{
+    margin-top: 10px;
+    color: #333 !important;
+    font-size: 0.98rem;
+    font-weight: 300; 
+}
+.top-Social a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgba(53, 55, 80, 0.15);
+}
+.top-Social a:hover{
+    background-color: var(--secondaryk);
+    transform: translateY(-2px);
+}
+.footer-end{
+    background:  rgba(53, 55, 80, 0.15);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.footer-end p{
+    color: #000;
+    font-size: 0.99rem;
+    font-weight: 700;
+    margin-top: 10px;
 }
