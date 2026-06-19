@@ -166,7 +166,7 @@ a{
 }
 /* Footer Section */
 #footer{
-    background:  rgba(53, 55, 80, 0.15) !important;
+    background: var(--dark) !important;
     position: relative;
     overflow: hidden;
     padding: 20px 20px;
@@ -176,9 +176,10 @@ a{
     font-weight: 600;
     font-family: Arial, sans-serif;
     margin-top: 20px;
-    color: #000;
+    color: #fff;
 }
 .footer-heading{
+    color: #fff;
    font-size: 0.98rem;
    font-weight: 600;
    font-family: Arial, sans-serif;
@@ -188,21 +189,23 @@ a{
     list-style: none;
 }
 .footer-link li a{
-    color: #555 !important;
+    color: #fff !important;
     font-size: 0.98rem;
 }
 .footer-link li a:hover{
     color: var(--primary) !important;
 }
 .link a i{
-    color: #555;
+    color: #fff;
 }
 .footer-time{
+    color: #fff;
    font-size: 0.98rem;
    font-weight: 600;
    font-family: Arial, sans-serif;
 }
 .time-work{
+    color: #fff;
     font-size: 0.87rem;
    font-weight: 500;
    font-family: Arial, sans-serif;
@@ -219,20 +222,10 @@ a{
     background-color: rgba(34, 32, 32, 0.432);
 }
 .footer-social a i{
-    color: var(--primary);
-}
-.footer-social a i:hover{
-    background-color: var(--secondary);
-    transform: translateY(-2px);
-}
-.footer-end{
-    background:  rgba(53, 55, 80, 0.15);
-    position: relative;
-    overflow: hidden;
-    width: 100%;
+    color: var(--body);
 }
 .footer-end p{
-    color: #000;
+    color: #fff;
     font-size: 0.99rem;
     font-weight: 700;
     margin-top: 10px;

@@ -3,9 +3,10 @@
 
 
 :root{
-    --primary: #0943ca;
+    --primary: #9B0022;
     --primary-hover: #0346b1;
-    --secondary:   #d4a017;
+    --secondary:   #C98A36;
+    --dark: #0F172A;
     --secondary-light: #e6c35c;
 
     --bg-section: #dbd5db;
@@ -14,10 +15,10 @@
     --text-primary: #1e293b;
     --text-scendary: #64748b;
     
-    --background-linear: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    --background-linear: linear-gradient(rgba(15,23,42,.7),rgba(15,23,42,.7));
 
-    --bg-navbar: #0c53fa;
-    --bg-header:#00379e;
+    --bg-navbar: #9B0022;
+    --bg-header:#0F172A;
 
     --bg-footer: #0b1120;
     --text-footer: #cbd5e1;
