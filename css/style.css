@@ -213,11 +213,10 @@ a{
 .footer-social{
     display: inline-flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
     width: 28px;
     height: 28px;
-    gap: 15px;
+    gap: 10px;
     border-radius: 50%;
     background-color: rgba(34, 32, 32, 0.432);
 }
@@ -230,3 +229,32 @@ a{
     font-weight: 700;
     margin-top: 10px;
 }
+/* Responsive tweaks */
+ @media (max-width: 768px) {
+   .section-pad {
+     padding: 60px 0;
+   }
+
+   .hero-float-card {
+     display: none;
+   }
+
+   #hero {
+     padding: 70px 0 60px;
+   }
+
+   .hero-illustration {
+     min-height: 260px;
+     margin-top: 40px;
+   }
+
+   .stats-divider {
+     display: none;
+   }
+ }
+
+ @media (max-width: 576px) {
+   .hero-heading {
+     font-size: 2rem;
+   }
+ }
