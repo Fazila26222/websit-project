@@ -64,14 +64,19 @@
 .Exchange-title{
     position: relative;
     display: inline-block;
+    font-size: 0.98rem;
+    font-weight: 900;
 }
 .Exchange-title::after{
     content: '';
     display: block;
-    width: 130px;
+    width: 100px;
     height: 2px;
     margin-top: 8px;
     background-color: var(--secondary);
+}
+.Exchange-sub{
+    font-size: 0.89rem;
 }
 .table{
     width: 100%;
@@ -80,11 +85,45 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    border-radius: 10px;
+    padding: 40px 30px;
+    
+
 }
 th, td{
     padding: 12px;
-    text-align: center;
+    align-items: center;
     border-bottom: 1px solid #555;
+    gap: 8px;
 }
-
+.table th{
+    background-color: var(--secondary) !important;
+    color: #fff;
+}
+.table tr:hover{
+    background-color: var(--secondary);
+}
+.Images{
+    border-radius: 20px;
+    background: linear-gradient(145deg, #eff6ff,#dbeafe,#ede9fe);
+    min-height: 430px;
+    max-width:430px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Images:hover{
+    transform: translateY(-6px);
+}
+.Btn-btn{
+    background-color: var(--primary);
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 30%;
+    border-radius: 20px;
+}
