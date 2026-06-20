@@ -1,6 +1,6 @@
 
 .hero{
-    background: var(--background-linear),url("../img/currency.jpg");
+    background: url("../img/currency2.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
