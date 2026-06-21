@@ -79,7 +79,7 @@
 
 /*ُsection*/
 
-image{
+.image{
     border-radius: 24px;
     background: linear-gradient(145deg, #eff6ff,#dbeafe,#ede9fe);
     min-height: 430px;
