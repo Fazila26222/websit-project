@@ -177,10 +177,20 @@ image{
     height: 100%;
     position: relative;
 }
+.bran-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
 .bran-card:hover{
     box-shadow: var(--shadow-lg);
     transform: translateY(-6px);
     border-color: rgba(37, 99, 235, 0.25);
+}
+.barn-thumb img{
+    width: 100%;
+    height: auto;
 }
 .bran-body{
     padding: 20px;
