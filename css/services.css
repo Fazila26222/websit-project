@@ -89,13 +89,18 @@
     font-size: 1.2rem;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 .head::after{
     content: '';
     display: block;
-    width: 80px;
+    width: 50px;
     height: 3px;
     margin-top: 8px;
+    margin-right: 150px;
     background-color: var(--secondary);
 }
 .info{
@@ -103,13 +108,20 @@
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     color: #555;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .btn-info{
     background: var(--primary);
     color: #fff;
     border-radius: 10px;
     border: none;
-
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .btn-info:hover{
     background-color: var(--dark);
@@ -119,6 +131,7 @@
     background-color: var(--bg-section) !important;
     border-radius: var(--radius) !important;
     border: none !important;
+    width: 100%;
     margin-top: 30px;
     box-shadow: var(--shadow-md) !important;
     overflow: hidden;
@@ -127,11 +140,10 @@
     position: relative;
 }
 .currency-card img{
-     width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
-    display: block;
-    
+   display: block;
 }
 .currency-card:hover{
     border-color: #010b20 !important;
@@ -142,9 +154,138 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+.heading h6{
     font-size: 1.2rem !important;
     font-weight: 600 !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+ /*=================
+    Currency
+======================*/
+.Currency{
+    background: var(--body);
+    padding: 40px 0;
+}
+.Heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.description{
+    color: #555;
+     font-size: 0.89rem;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.btn-des{
+    background: var(--primary);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.btn-des:hover{
+    background: var(--dark);
+    transform: translateY(-5px);
+}
+
+  /*=================
+    Currency
+======================*/
+.card{
+    background: var(--bg-section);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1.5px solid var(--border);
+    transition: all var(--transition);
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+}
+.card-top{
+    height: 100px;
+    background: var(--primary);
+    clip-path: polygon(0 0,100% 0, 100% 70%,0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-top img{
+    width: 70px;
+    height: 70px;
+    border-radius:50% !important;
+    object-fit: contain;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 5px;
+}
+.card-body h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+.card-body p{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    color: var(--primary);
+}
+.card-body h6{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+.rate-change{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+.card-Top{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card-Top h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+.card-Top p{
+    font-size: 0.98rem;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    color: #555;
+}
+.card-Body{
+    display: block;
+    justify-content: end;
+    align-items: end;
+    font-size: 0.87rem;
+    font-family: Arial, sans-serif;
+    color: #555;
+    line-height: 47px;
+    text-align: right;
+    padding: 10px;
 }
 
 
