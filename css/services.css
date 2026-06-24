@@ -192,14 +192,19 @@
     justify-content: center;
     margin-left: 50px;
 }
+.btn-des a{
+    color: #fff;
+    font-size: 0.89rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 .btn-des:hover{
     background: var(--dark);
     transform: translateY(-5px);
 }
-
-  /*=================
-    Currency
-======================*/
 .card{
     background: var(--bg-section);
     border-radius: var(--radius);
