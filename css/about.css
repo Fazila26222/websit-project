@@ -1,0 +1,207 @@
+body {
+    background: var(--text-primary) !important;
+}
+
+.information-about-us {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.headind {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.40rem;
+    font-weight: 700;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.headind::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin-top: 8px;
+    margin-right: 230px;
+    background-color: var(--secondary);
+}
+
+.information {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.btn-information {
+    background: var(--primary);
+    border-radius: var(--radius);
+    border: none;
+
+}
+
+.btn-information a {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-information:hover {
+    background: var(--secondary);
+    box-shadow: var(--primary-hover) !important;
+    transform: translateY(-6px);
+}
+
+.image {
+    border-radius: 24px;
+    background: linear-gradient(145deg, #eff6ff, #dbeafe, #ede9fe);
+    min-height: 480px;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image:hover {
+    transform: translateY(-3px);
+}
+
+/*=============
+       Card number
+    =============*/
+
+.divider-section {
+    background: var(--secondary);
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.icons {
+    color: #fff;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+    font-size: 1.40rem;
+}
+
+.stat-num {
+    flex-direction: row;
+    color: #fff;
+    font-size: 1.67rem;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.stats-lable {
+    flex-direction: row;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*===============
+     Cards lable 
+     ==============*/
+.cards {
+    background-color: var(--text-primary) !important;
+    border-radius: var(--radius) !important;
+    border: none !important;
+    margin-top: 30px;
+    box-shadow: var(--shadow-md) !important;
+    display: flex;
+    object-fit: cover;
+    transition: var(--transition);
+    cursor: pointer !important;
+}
+
+.cards:hover {
+    background-color: var(--secondary) !important;
+    transform: translateY(-6px);
+}
+
+.card-lbl {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.lbl {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.lbl i {
+    font-size: 1.50rem;
+}
+
+.desc {
+    font-size: 0.98remrem;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/*=============
+    Locations
+    =========== */
+.locations {
+    background: var(--secondary);
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.location {
+    flex-direction: row;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.LBL {
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    
+}
+
+.LBL i {
+    font-size: 1.50rem;
+}
+
+.LBL p {
+    font-size: 0.89rem;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+}
