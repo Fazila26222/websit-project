@@ -1,0 +1,87 @@
+body {
+    background: var(--text-primary) !important;
+}
+
+/*=============
+    Locations
+    =========== */
+.locations {
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.location {
+    flex-direction: row;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.location a {
+    font-size: 1.34rem;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+
+.location i {
+    font-size: 1.70rem;
+    color: var(--secondary);
+}
+
+.location p {
+    font-size: 0.89rem;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+}
+
+/*===============
+    FORM CONTACT
+    =============*/
+.from {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 50px auto;
+    width: 350px;
+    border: 1px solid #e9c912;
+    box-shadow: 0 0 10px rgba(224, 221, 5, 0.34);
+    font-family: Arial, sans-serif;
+}
+.from:hover{
+    transform: translateY(-6px);
+}
+
+.form-label input,
+.form-label textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #e9c912;
+
+}
+
+.form-label h6 {
+    color: #fff;
+    font-size: 1.34rem;
+    font-weight: 800;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label button {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background: var(--secondary);
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-label button:hover {
+    background: var(--secondary-light);
+}
