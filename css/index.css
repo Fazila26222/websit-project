@@ -115,6 +115,7 @@
     background: linear-gradient(145deg, #eff6ff,#dbeafe,#ede9fe);
     min-height: 430px;
     max-width:430px ;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,7 +191,7 @@
 }
 .section-Sub{
     font-size: 1rem;
-    letter-spacing: 0.15em;
+    letter-spacing: normal;
 }
 .btn-nav-Login{
     background: var(--primary) !important;
@@ -311,12 +312,16 @@ th, td{
     background: linear-gradient(145deg, #eff6ff,#dbeafe,#ede9fe);
     min-height: 250px;
     max-width:250px ;
-    
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+}
+.Image img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
