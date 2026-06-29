@@ -256,14 +256,6 @@ a{
     .nav-item{
         margin-bottom: 10px;
     }
-    .submenu{
-        position: static;
-        opacity: 1;
-        visibility: visible;
-        transform: translateX(0);
-        box-shadow: none;
-        width: 100%;
-    }
     .submenu li a{
         padding: 10px 15px;
     }
