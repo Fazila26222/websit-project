@@ -142,7 +142,7 @@
 }
 .divider-section{
     background: var(--dark);
-    padding: 40px 20px;
+    padding: 40px 10px;
     border-radius: 5px;
     margin-top: 30px;
 }
@@ -228,13 +228,6 @@
 .bran-body{
     padding: 20px;
 }
-/*
-.bran-body.locaton-icon{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-    */
 .barn-title{
     font-size: 0.79rem;
     font-weight: 700;
@@ -258,19 +251,27 @@
     Exchange section
 ==============================
 */
-.exchange{
-    background: var(--bg-main);
+#exchange{
+    background: var(--body);
     margin-top: 30px;
 }
 .Heading{
-    font-family: Arial,sans-serif;
-    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.40rem;
     font-weight: 700;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
 }
 .descraption{
-    font-family: Arial,sans-serif;
-    font-size: 0.98rem;
+   text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
     font-weight: 500;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
 }
 .Feature{
     display: flex;
@@ -281,7 +282,7 @@
     color: var(--secondary); 
     font-size: 2rem;
 }
-/* Left Content */
+/* center Content */
 
 .table{
     width: 100%;
@@ -304,18 +305,18 @@ th, td{
     transform: translateY(-2px) !important;
     box-shadow: var(--shadow-lg) !important;
 }
-/*
+
 .Image{
     border-radius: 24px;
     background: linear-gradient(145deg, #eff6ff,#dbeafe,#ede9fe);
-    min-height: 150px;
-    max-width:150px ;
-    display: inline-flex;
+    min-height: 250px;
+    max-width:250px ;
+    
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
 }
-    */
+
 
