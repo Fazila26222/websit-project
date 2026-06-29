@@ -59,8 +59,7 @@ a{
 #mainNav{
     background-color: var(--bg-navbar);
     width: 100%;
-    min-height: 80px;
-    height: auto;
+    height: 80px;
     padding: 14px 0;
     transition: box-shadow var(--transition);
     display: flex;

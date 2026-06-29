@@ -114,11 +114,11 @@ th, td{
 .Images:hover{
     transform: translateY(-6px);
 }
-.Btn-btn{
+.Link a{
     background-color: var(--primary);
     color: #fff;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 30px;
-    width: 30%;
-    border-radius: 20px;
+    width: 40%;
+    border-radius: 10px;
 }
