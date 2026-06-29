@@ -250,13 +250,18 @@ a{
     }
  }
  @media(max-width: 576px){
-    .navbar-nav{
-        text-align: center;
+   .Feature{
+        flex-direction: column;
+        gap: 20px;
     }
-    .nav-item{
-        margin-bottom: 10px;
+    .Image{
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
     }
-    .submenu li a{
-        padding: 10px 15px;
+    .image{
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
     }
  }
