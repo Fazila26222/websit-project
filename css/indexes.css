@@ -47,7 +47,6 @@ body {
     width: 5%;
     height: 3px;
     margin-top: 8px;
-    margin-right: 15px;
     background-color: var(--secondary);
 }
 
@@ -73,7 +72,6 @@ body {
     width: 5%;
     height: 3px;
     margin-top: 8px;
-    margin-right: 15px;
     background-color: var(--secondary);
     display: block;
 }
@@ -93,8 +91,6 @@ body {
     display: block;
     width: 5%;
     height: 3px;
-    margin-top: 8px;
-    margin-right: 15px;
     background-color: var(--secondary);
     display: block;
 }
