@@ -59,11 +59,13 @@ a{
 #mainNav{
     background-color: var(--bg-navbar);
     width: 100%;
-    height: 80px;
+    min-height: 80px;
+    height: auto;
     padding: 14px 0;
     transition: box-shadow var(--transition);
     display: flex;
-   flex-wrap: nowrap;
+    flex-wrap: wrap;
+   
 }
 .navbar-brand{
     overflow: hidden;
@@ -258,4 +260,10 @@ a{
    .hero-heading {
      font-size: 2rem;
    }
+ }
+ @media(max-width: 768px){
+    .Feature{
+        flex-direction: column;
+        gap: 20px;
+    }
  }
