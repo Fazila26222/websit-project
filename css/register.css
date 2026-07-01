@@ -1,0 +1,113 @@
+
+.card {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: var(--shadow-lg) !important;
+    margin-top: 20px;
+
+}
+.right-section{
+    background-color: #0f172a;
+}
+
+.right-section img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.right-section h1 {
+    margin-top: 10px;
+    font-size: 1.60rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.right-section p {
+    margin-top: 10px;
+    font-size: 0.98rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.icon{
+    
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    
+}
+.lbl{
+  
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 0.78rem;
+}
+.right-section a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 20px !important;
+}
+/*=============
+ Left section
+===============*/
+.heading h1 {
+    margin-top: 10px;
+    font-size: 1.60rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading p {
+    margin-top: 10px;
+    font-size: 1.20rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.form label{
+    font-size: 0.89rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+.form button {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #0a2fd4;
+    border: none;
+    color: #ffffff;
+}

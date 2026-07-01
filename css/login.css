@@ -90,11 +90,20 @@ button {
     align-items: center;
     color: #ffffff;
 }
-
-.security{
-    display: inline-flex;
+.icon{
+    
     justify-content: center;
     text-align: center;
     padding: 5px;
     color: #ffffff;
+    font-size: 1rem;
+    
+}
+.lbl{
+  
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 0.78rem;
 }
