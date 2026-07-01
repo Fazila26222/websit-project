@@ -381,16 +381,6 @@
 }
 .section-Sub{
     font-size: 1rem;
-    letter-spacing: 0.15em;
-}
-.btn-nav-Login{
-    background: var(--primary) !important;
-    transition: all var(--transition);
-}
-.btn-nav-Login:hover{
-    box-shadow: var(--shadow-lg);
-    transform: translateY(-6px);
-    border-color: rgba(37, 99, 235, 0.25);
 }
 .bran-card{
     background: var(--bg-section);
@@ -420,7 +410,7 @@
     padding: 20px;
 }
 .barn-title{
-    font-size: 0.79rem;
+    font-size: 1rem;
     font-weight: 700;
     margin-bottom: 6px;
     line-height: 1.4px;
