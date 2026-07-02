@@ -1,4 +1,8 @@
 
+body{
+    direction: rtl;
+    text-align: right;
+}
 .card {
     background-color: #ffffff;
     width: 100%;
