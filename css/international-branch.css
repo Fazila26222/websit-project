@@ -1,0 +1,69 @@
+
+body{
+    background-color: var(--text-primary) !important;
+}
+#Branches{
+    padding-bottom: 30px;
+}
+.section-tital{
+    margin-top: 40px;
+    font-size: 1.50rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.section-Sub{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.bran-card{
+    background: var(--text-primary);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1.5px solid var(--border);
+    transition: all var(--transition);
+    height: 100%;
+    position: relative;
+    
+}
+.bran-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+.bran-card:hover{
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-6px);
+    border-color: rgba(37, 99, 235, 0.25);
+}
+.barn-thumb img{
+    width: 100%;
+    height: auto;
+}
+.bran-body{
+    padding: 20px;
+}
+.barn-title{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 1.4px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+.bran-sub{
+    font-size: 0.82rem;
+    color: #fff;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

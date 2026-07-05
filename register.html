@@ -68,22 +68,36 @@
                             <div class="row">
                                 <div class="col-md-6 ">
                                     <label>نام</label><br>
-                                    <input type="text" placeholder="نام خود را وارید کنید ">
+                                    <div class="position-relative">
+                                        <i class="bi bi-person position-absolute top-50 end-0 translate-middle-y me-3
+                                            "></i>
+                                        <input type="text" class="form-control pe-5 text-end"
+                                            placeholder="نام خود را وارید کنید ">
+                                    </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <label>نام خانوادگی</label><br>
-                                    <input type="text" placeholder="نام خانوادگی خود را وارد کنید">
+                                    <div class="position-relative">
+                                        <i class="bi bi-person position-absolute top-50 end-0 translate-middle-y me-3
+                                            "></i>
+                                        <input type="text" class="form-control pe-5 text-end"
+                                            placeholder="نام خانوادگی خود را وارد کنید">
+                                    </div>
                                 </div>
                             </div>
 
                             <label>ایمیل</label><br>
-                            <input type="text" placeholder="ایمیل خود را وارد کنید">
+                            <div class="position-relative">
+                                <i class="bi bi-envelope position-absolute top-50 end-0 translate-middle-y me-3"></i>
+                                <input type="email" class="form-control pe-5 text-end"
+                                    placeholder="ایمیل خود را وارد کنید">
+                            </div>
 
                             <div class="row">
                                 <div class="col-md-4">
                                     <label>کد کشور</label><br>
-                                    <select class="+93">
+                                    <select class="form-select form-select-lg">
                                         <option value="">+98</option>
                                         <option value="">+92</option>
                                         <option value="">+93</option>
@@ -94,26 +108,51 @@
 
                                 <div class="col-md-8">
                                     <label>شماره تماس</label><br>
-                                    <input type="text" placeholder="شماره خود را وارید نمایید">
+                                    <div class="position-relative">
+                                        <i class="bi bi-telephone position-absolute top-50 end-0 translate-middle-y me-3
+                                            "></i>
+                                        <input type="phone" class="form-control pe-5 text-end"
+                                            placeholder="شماره خود را وارید نمایید">
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="row">
-                                  <div class="col-md-6">
+                                <div class="col-md-6">
                                     <label>رمز عبور</label><br>
-                                    <input type="text" placeholder="رمز خود را وارد کنید">
+                                    <div class="position-relative">
+                                        <i class="bi bi-lock position-absolute top-50 end-0 translate-middle-y me-3
+                                            "></i>
+                                        <input type="password" class="form-control pe-5 text-end"
+                                            placeholder="رمزعبور خود را وارد کنید">
+                                    </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <label>تگرار رمز عبور</label><br>
-                                    <input type="text" placeholder="رمز خود را تکرار کنید">
+                                    <div class="position-relative">
+                                        <i class="bi bi-lock position-absolute top-50 end-0 translate-middle-y me-3
+                                            "></i>
+                                        <input type="password" class="form-control pe-5 text-end"
+                                            placeholder="رمزعبور خود را وارد کنید">
+                                    </div>
                                 </div>
                             </div>
 
                             <label>کشور</label><br>
-                            <input type="text" placeholder="نام کشور خود را وارید کنید">
+                            <select class="form-select form-select-lg">
+                                <option value="">نام کشور خود را انتخاب کنید</option>
+                                <option value="">افغانستان</option>
+                                <option value="">ایران</option>
+                                <option value="">آسترلیا</option>
+                                <option value="">پاکستان</option>
+                            </select>
 
-                            <input type="checkbox">شرایط و قوانین را مطالعه کرده میپزیرم
+                            <div class="d-flex align-items-center">
+                                <input type="checkbox">
+                                <label> شرایط و قوانین را مطالعه کرده میپزیرم </label>
+                            </div>
+
                             <button type="submit">ایجاد حساب کاری</button>
 
                             <div class="d-flex align-items-center">
@@ -123,13 +162,19 @@
 
                             <div class="row">
                                 <div class="col-md-6">
-
-                                    <input type="text" placeholder="Apple">
+                                    <div class="position-relative">
+                                        <i class="bi bi-apple position-absolute top-50 end-0 translate-middle-y me-3
+                                            "></i>
+                                        <input type="text" placeholder="Apple" class="form-control pe-5 text-end">
+                                    </div>
                                 </div>
 
                                 <div class="col-md-6">
-
-                                    <input type="text" placeholder="Google">
+                                    <div class="position-relative">
+                                        <i class="bi bi-google position-absolute top-50 end-0 translate-middle-y me-3
+                                            "></i>
+                                        <input type="text" placeholder="Google" class="form-control pe-5 text-end">
+                                    </div>
                                 </div>
                             </div>
                         </form>

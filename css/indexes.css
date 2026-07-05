@@ -40,16 +40,6 @@ body {
     font-size: 1.6rem;
     font-weight: 600;
 }
-
-.head h3::after {
-    content: '';
-    display: block;
-    width: 5%;
-    height: 3px;
-    margin-top: 8px;
-    background-color: var(--secondary);
-}
-
 .head ul li {
     font-size: 0.89rem;
     font-weight: 500;
@@ -66,16 +56,6 @@ body {
     font-weight: 600;
 }
 
-.head-1 h3::after {
-    content: '';
-    display: block;
-    width: 5%;
-    height: 3px;
-    margin-top: 8px;
-    background-color: var(--secondary);
-    display: block;
-}
-
 .head-1 p {
     font-size: 0.89rem;
     font-weight: 500;
@@ -84,15 +64,6 @@ body {
 .head-2 h3 {
     font-size: 1.6rem;
     font-weight: 600;
-}
-
-.head-2 h3::after {
-    content: '';
-    display: block;
-    width: 5%;
-    height: 3px;
-    background-color: var(--secondary);
-    display: block;
 }
 
 .head-2 ul li {

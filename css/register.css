@@ -97,13 +97,27 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .form input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     border: 1px solid #eee;
+}
+.form-select option{
+    font-size: 0.77rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.d-flex label{
+    width: auto;
+    margin: 10px;
+    white-space: nowrap;
 }
 .form button {
     width: 80%;
