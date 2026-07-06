@@ -3,9 +3,9 @@ body{
     direction: rtl;
     text-align: right;
 }
-.Hero{
+.hero{
     color: #fff;
-    padding: 20px;
+    padding: 10px;
 }
 .card{
     text-align: center;
@@ -14,17 +14,22 @@ body{
     font-family: Arial, sans-serif;
     padding: 20px;
 }
-.card h4{
-    font-size: 1.34rem;
+.card h5{
+    font-size: 1rem;
     font-weight: 600;
     color: #333;
 }
-.list{
-    list-style: none;
-    padding-right: 20px;
+.mb-3 label{
+     font-size: 0.98rem;
+    font-weight: 500;
+    color: #333;
 }
-.list-li::before{
-    content: "✓" !important;
-    color: var(--secondary);
-    margin-left: 10px;
+.btn-cilck{
+    background-color: #1b4cd4;
+    margin-top: 10px;
+    color: #fff;
+}
+.btn-cilck:hover{
+    background-color: #041c5e;
+    color: #fff;
 }
