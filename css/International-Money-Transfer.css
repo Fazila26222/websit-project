@@ -1,3 +1,6 @@
+body{
+    background: var(--dark) !important;
+}
 #hero {
    background: var(--text-primary);
     display: flex;
@@ -79,6 +82,7 @@ SECTON
     background: var(--dark);
     border-radius: var(--radius);
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 .heading{
     font-size: 1.24rem;
