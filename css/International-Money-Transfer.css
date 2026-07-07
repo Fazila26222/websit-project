@@ -1,0 +1,112 @@
+#hero {
+   background: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.right-banner h4{
+    margin-top: 30px;
+    font-size: 1.60rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-banner p{
+     margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.features-box{
+    background: var(--dark);
+    text-align: center;
+    border-radius: var(--radius);
+    margin-top: 40px;
+}
+
+.icon {
+    color: #C98A36;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.LBL {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    gap: 20px;
+}
+
+.info {
+    color: #fff;
+    font-size: 0.87rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/*=======
+ BUTTON    
+ =========*/
+
+.button{
+    color: #fff;
+    border: #fff;
+    border-radius: 10px;
+}
+.btn-register{
+   background-color: var(--primary);
+   color: #fff;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.btn-contact{
+    color: #fff;
+    background-color: var(--secondary);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*========
+SECTON
+==========*/
+.section{
+    background: var(--dark);
+    border-radius: var(--radius);
+    margin-top: 40px;
+}
+.heading{
+    font-size: 1.24rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.col-md-7{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.lable{
+    flex-direction: row;
+    color: #fff;
+    font-size:1rem ;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.fi{
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
