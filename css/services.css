@@ -1,14 +1,36 @@
 
 .hero{
-    background: url("../img/currency2.jpg");
+    background-color: var(--dark);
     background-size: cover;
     background-position: center;
     display: flex;
+}
+.lable{
+    color: #fff;
+    margin-top: 20px;
+}
+.lable h1{
+    font-size: 1.56rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lable p{
+     font-size: 1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-button{
+    background: var(--secondary);
+    border-radius: 20px;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    padding: 15%;
-    
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.btn-button:hover{
+     background: var(--primary);
+     transform: translateY(-2px);
 }
 .stats-card{
     background-color: var(--bg-section) !important;
