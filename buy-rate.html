@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/variable.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/indexes.css">
+    <link rel="stylesheet" href="css/buy-rate.css">
 
     <!--icons and fonts file-->
     <link rel="stylesheet" href="icons/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="icons/fonts/bootstrap-icons.woff">
-    <link rel="stylesheet" href="fonts/Vazirmatn-Regular.ttf">
+    <link rel="stylesheet" href="css/flag-icons.min.css">
+    <link rel="stylesheet" href="css/flag-icons.css">
 
 </head>
+
 
 <body>
     <!--Header-->
@@ -50,7 +51,7 @@
 
     <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
         <div class="container">
-            <a href="#" class="navbar-brand"><img src="img/logo.jpg" class="img-fluid" alt=""></a>
+            <a href="#" class="navbar-brand"><img src="img/logo.jpg" alt=""></a>
             <!--Mobile-->
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#navOffcanvas" aria-controls="navOffcanvas">
@@ -91,10 +92,10 @@
                                 <a href="today-rates.html">نرخ امروز</a>
                             </li>
                             <li>
-                                <a href="buy-rates.html">نرخ خرید</a>
+                                <a href="buy-rate.html">نرخ خرید</a>
                             </li>
                             <li>
-                                <a href="#">نرخ فروش</a>
+                                <a href="">نرخ فروش</a>
                             </li>
                         </ul>
                     </li>
@@ -106,10 +107,10 @@
                                 <a href="indexes.html">معرفی شرکت</a>
                             </li>
                             <li>
-                                <a href="#">ارزش ها</a>
+                                <a href="indexes.html">ارزش ها</a>
                             </li>
                             <li>
-                                <a href="#">چراماراانتخاب کنند</a>
+                                <a href="indexes.html">چراماراانتخاب کنند</a>
                             </li>
                         </ul>
                     </li>
@@ -136,7 +137,7 @@
         <div class="offcanvas-body">
             <ul class="navbar-nav gap-1 mb-4">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">خانه</a>
+                    <a href="index.html" class="nav-link ">خانه</a>
                 </li>
 
                 <li class="nav-item">
@@ -152,22 +153,22 @@
                             <a href="Money-Transfer.html">انتقال پول</a>
                         </li>
                         <li>
-                                <a href="local-branch.html">نمایندگی داخلی</a>
-                            </li>
-                            <li>
-                                <a href="international-branch.html">نمایندگی خارجی</a>
-                            </li>
+                            <a href="local-branch.html">نمایندگی داخلی</a>
+                        </li>
+                        <li>
+                            <a href="international-branch.html">نمایندگی خارجی</a>
+                        </li>
                     </ul>
                 </li>
 
                 <li class="nav-item">
-                    <a href="rates.html" class="nav-link">نرخ اسعار ما</a>
+                    <a href="rates.html" class="nav-link ">نرخ اسعار ما</a>
                     <ul class="submenu">
                         <li>
                             <a href="today-rates.html">نرخ امروز</a>
                         </li>
                         <li>
-                            <a href="buy-rates.html">نرخ خرید</a>
+                            <a href="buy-rate.html">نرخ خرید</a>
                         </li>
                         <li>
                             <a href="#">نرخ فروش</a>
@@ -182,10 +183,10 @@
                             <a href="indexes.html">معرفی شرکت</a>
                         </li>
                         <li>
-                            <a href="#">ارزش ها</a>
+                            <a href="indexes.html">ارزش ها</a>
                         </li>
                         <li>
-                            <a href="#">چراماراانتخاب کنند</a>
+                            <a href="indexes.html">چراماراانتخاب کنند</a>
                         </li>
                     </ul>
                 </li>
@@ -195,95 +196,166 @@
                 </li>
             </ul>
             <div class="d-flex gap-2">
-                <a href="#" class="btn btn-nav-login">ورود</a>
-                <a href="#" class="btn btn-nav-register">ثبت نام</a>
+                <a href="login.html" class="btn btn-nav-login">ورود</a>
+                <a href="register.html" class="btn btn-nav-register">ثبت نام</a>
             </div>
         </div>
     </div>
 
-    <section id="informaton">
-        <div class="container">
-            <div class="heading">
-                <h2>معرفی صرافی و<span style="color: #C98A36;">خدمات پولی دریابی</span></h2>
-                <p>صرافی و خدمات پولی دریابی یکی از مجموعه های فعال در عرصه خدماتی مالی وتبادله ارز در افغانستان
-                    است که با تکیه براصول صداقت ,امانت داری,سرعت و شفافیت ,خدمات متنوغ مالی را به مشتریان حقیقی,
-                    تجاری و سازمانی ارائه میدهد.در دنیا امروز که سرعت و امنیت در نقل و انتقال پول اهمیت ویژه دارد,
-                    صرافی دریابی تلاش میکند با بهره گیری از تجربه, نیروی انسانی متخصص و رعایت قوانین مالی,
-                    خدمات مطمئن و باکیفیت در اختیار مشتریان قرار دهد.
-                </p>
-            </div>
-        </div>
-    </section>
+    <!-- hero banner -->
 
-    <section class="Information">
+    <section class="hero">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row">
+                <!--right banner-->
                 <div class="col-md-6">
-                    <div class="head">
-                    <h3>خدمات ما</h3>
-                    <ul>
-                        <li>خرید و فروش انواع ارزهای خارجی</li>
-                        <li>انتقال پول به داخل وخارج از افغانستان</li>
-                        <li>حواله های بین المللی</li>
-                        <li>تبدیل ارز با نرخ های رقابتی</li>
-                        <li>خدمات مالی برای تاجران ,شرکت ها و موسسات</li>
-                        <li>مشاوره در زمینه تبادلات ارزی ومالی</li>
-                        <li>همکاری باکسب وکارهای داخلی و بین المللی</li>
-                    </ul>
+                    <div class="lable">
+                        <h1>نرخ <span style="color:#C98A36;">خرید</span></h1>
+                        <p>ما ارزهای معتبر را با بهترین نرخ روز خریداری میکنیم</p>
+                        <button class="btn btn-primary">نرخ خرید<i class="bi bi-patch-check-fill"></i></button>
                     </div>
-                </div>
 
+                </div>
+                <!--left banner-->
                 <div class="col-md-6">
-                    <div class="head">
-                    <h3>ارزش های ما</h3>
-                    <ul>
-                        <li>امانت داری:سرمایه و اعتمادمشتریان بزرگترین سرمایه مااست</li>
-                        <li>شفافیت : تمامی معاملات باوضوح کامل و نرخ های مشخصانجام میشود</li>
-                        <li>سرعت: انتقال و انجام معاملات در کوتاه ترین زمان ممکن</li>
-                        <li>اعتماد: ایجاد روابط پایدار با مشتریان برپایه صداقت و مسئولیت پذیری</li>
-                        <li>رضایت مشتری: هدف اصلی ما ارائه خدماتی فراتر از انتظار مشتریان است.</li>
-                    </ul>
+                    <div class="left-banner" >
+                        <img src="img/buy rates.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="informatoin">
+    <!--card section-->
+
+    <section class="card-section">
         <div class="container">
-            <div class="row align-items-center g-5">
-                <div class="col-md-6">
-                    <div class="head-1">
-                        <h3>چشم انداز</h3>
-                        <p>تبدیل شدن به یکی از معتیرترین و پشروترین شرکت های صرافی و خدمات پولی
-                            افغانستان و گسترش دامنه خدمات در سطح منطقه با استفاده از فناوری های نوین مالی.
-                        </p>
-                        <h3>مآموریت</h3>
-                        <p>ارائه خدمات مالی سریع,امن,دقیق و مطابق با قوانین,به گونه ای که مشتریان بتوانند با
-                            اطمینان کامل امور ارزی و حواله خود را انجام دهند و تجربه ای مطمئن از همکاری با
-                            صرافی دریابی داشته باشند.
-                        </p>
-                    </div>
+            <div class="row d-flex text-center g-3">
+                <div class="col-md-4 col-12">
+                    <a href="Money-Exchange-Services.html">
+                        <div class="card">
+                            <div class="card-lable">
+                                <i class="bi bi-cart-check"></i>
+                                <h6>بهترین نرخ خرید</h6>
+                                <p>ارزهای شمارا بانرخ رقابتی ومنصفانه خریذاری می کنیم.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-6">
-                    <div class="head-2">
-                        <h3>چرا صرافی دریابی؟</h3>
-                        <ul>
-                            <li>امنیت بالا در انجام معاملات</li>
-                            <li>سرعت در انتقال حواله ها</li>
-                            <li>نرخ های رقابتی ارز</li>
-                            <li>پاسخگویی و پشتانی مناسب</li>
-                            <li>رعایت اصول حرفه ای و محرمانگی اطلاعات مشتریان</li>
-                            <li>تلاش برای ایجاد اعتماد وهمکاری بلندمدت با مشتریان</li>
+
+                <div class="col-md-4 col-12">
+                    <a href="Money-Exchange-Services.html">
+                        <div class="card">
+                            <div class="card-lable">
+                                <i class="bi bi-lightning-charge-fill"></i>
+                                <h6>پرداخت سریع</h6>
+                                <p>پس از تأیید معامله, پرداخت به صورت لحظه ای انجام میشود</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <a href="Money-Exchange-Services.html">
+                        <div class="card">
+                            <div class="card-lable">
+                                <i class="bi bi-patch-check-fill"></i>
+                                <h6>معامله امن</h6>
+                                <p>تمام معاملات باشفاقیت,امنیت واطمینان کامل انجام میشود</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--=======
+    Table
+    =========-->
+
+    <section class="hero-table">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>جدول نرخ خرید</h3>
+                    <table class="table table-hover table-striped text-center">
+                        <thead>
+                            <tr>
+                                <th>بیرق</th>
+                                <th>نام ارز</th>
+                                <th>کد ارز</th>
+                                <th>نرخ خرید</th>
+                                <th>آخرین بروزرسانی</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><span class="fi fi-us"></span></td>
+                                <td>دالرامریکا </td>
+                                <td> USD</td>
+                                <td>64.55</td>
+                                <td><i class="bi bi-calendar-check"></i>10جولای 2026
+                                    <i class="bi bi-clock"></i>10:30
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="fi fi-eu"></span></td>
+                                <td>یورو </td>
+                                <td> EUR</td>
+                                <td>74</td>
+                                <td><i class="bi bi-calendar-check"></i>10جولای 2026
+                                    <i class="bi bi-clock"></i>10:30
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="fi fi-ae"></span></td>
+                                <td>درهم امارات</td>
+                                <td> AED</td>
+                                <td>17.10</td>
+                                <td><i class="bi bi-calendar-check"></i>10جولای 2026
+                                    <i class="bi bi-clock"></i>10:30
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="fi fi-gp"></span></td>
+                                <td>پوندبریتانیا</td>
+                                <td> GBP </td>
+                                <td>17.10</td>
+                                <td><i class="bi bi-calendar-check"></i>10جولای 2026
+                                    <i class="bi bi-clock"></i>10:30
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="buy-rate">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="buy">
+                        <h1>شرایط نرخ خرید</h1>
+                        <ul class="buy-list">
+                            <li>نرخ خرید ما بر اساس نرخ روز بازار جهانی و نرخ رسمی بانک مرکزی افغانستان میباشد.</li>
+                            <li>نرخ خرید ما برای مشتریان وفادار و همیشگی با تخفیف ویژه ارائه میشود.</li>
+                            <li>نرخ خرید ما برای مشتریان عمده و تجارتی با تخفیف ویژه ارائه میشود.</li>
+                            <li>نرخ خرید ما برای مشتریان که به صورت نقدی معامله میکنند با تخفیف ویژه ارائه میشود.</li>
                         </ul>
                     </div>
-                    <div class="btn btn-home">
-                    <a href="index.html">خانه</a>
                 </div>
-                </div>
+                <button class="btn btn-phone"><a href="contact.html">تماس برای اطلاعات بیشتر</a><i
+                        class="bi bi-telephone-fill"></i></button>
             </div>
         </div>
     </section>
+
     <!-- Footer Section -->
     <section id="footer">
         <div class="container">
