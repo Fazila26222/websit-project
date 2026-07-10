@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Main page</title>
+    <!--css and bootstrap file-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variable.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/today-rates.css">
+
+    <!--icons and fonts file-->
+    <link rel="stylesheet" href="icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/flag-icons.min.css">
+    <link rel="stylesheet" href="css/flag-icons.css">
+
+</head>
+
+
+<body>
+    <!--Header-->
+    <div id="top-header">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+                <!-- contact -->
+                <div class="d-flex flex-wrap align-items-center gap-3">
+                    <a href="mailto:darybi@gmail.com">
+                        <i class="bi bi-envelope-fill me-1"></i>
+                        Daryabi2020@gmail.com
+                    </a>
+
+                    <a href="tel:+93 700 544 097">
+                        <i class="bi bi-telephone-fill me-1"></i>
+                        0798375254
+                    </a>
+                </div>
+                <!-- icons -->
+                <div class="top-social d-flex gap-2">
+                    <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" aria-label="linkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" aria-label="Youtube"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start Navbar-->
+
+    <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="img/logo.jpg" alt=""></a>
+            <!--Mobile-->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#navOffcanvas" aria-controls="navOffcanvas">
+                <i class="bi bi-list" style="font-size: 1.6rem; color:#111827 ;"></i>
+            </button>
+            <!--disktop nav-->
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav align-items-center gap-1 me-3">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">خانه</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">خدمات ما</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="converter.html">تبدیل اسعار</a>
+                            </li>
+                            <li>
+                                <a href="Money-Exchange-Services.html">خریدوفروش ارز</a>
+                            </li>
+                            <li>
+                                <a href="Money-Transfer.html">انتقال پول</a>
+                            </li>
+                            <li>
+                                <a href="local-branch.html">نمایندگی داخلی</a>
+                            </li>
+                            <li>
+                                <a href="international-branch.html">نمایندگی خارجی</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="rates.html" class="nav-link">نرخ اسعار ما</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="today-rates.html">نرخ امروز</a>
+                            </li>
+                            <li>
+                                <a href="#">نرخ خرید</a>
+                            </li>
+                            <li>
+                                <a href="#">نرخ فروش</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">درباره ما</a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="indexes.html">معرفی شرکت</a>
+                            </li>
+                            <li>
+                                <a href="indexes.html">ارزش ها</a>
+                            </li>
+                            <li>
+                                <a href="indexes.html">چراماراانتخاب کنند</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">تماس با ما</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <a href="login.html" class="btn btn-nav-login">ورود</a>
+                    <a href="register.html" class="btn btn-nav-register">ثبت نام</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Mobile menu-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="navOffcanvas">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">شرکت صرافی و خدماتی پولی دریابی</h5>
+
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav gap-1 mb-4">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link ">خانه</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">خدمات ما</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="converter.html">تبدیل اسعار</a>
+                        </li>
+                        <li>
+                            <a href="Money-Exchange-Services.html">خریدوفروش ارز</a>
+                        </li>
+                        <li>
+                            <a href="Money-Transfer.html">انتقال پول</a>
+                        </li>
+                        <li>
+                            <a href="local-branch.html">نمایندگی داخلی</a>
+                        </li>
+                        <li>
+                            <a href="international-branch.html">نمایندگی خارجی</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="rates.html" class="nav-link ">نرخ اسعار ما</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="today-rates.html">نرخ امروز</a>
+                        </li>
+                        <li>
+                            <a href="#">نرخ خرید</a>
+                        </li>
+                        <li>
+                            <a href="#">نرخ فروش</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">درباره ما</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="indexes.html">معرفی شرکت</a>
+                        </li>
+                        <li>
+                            <a href="indexes.html">ارزش ها</a>
+                        </li>
+                        <li>
+                            <a href="indexes.html">چراماراانتخاب کنند</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">تماس با ما</a>
+                </li>
+            </ul>
+            <div class="d-flex gap-2">
+                <a href="login.html" class="btn btn-nav-login">ورود</a>
+                <a href="register.html" class="btn btn-nav-register">ثبت نام</a>
+            </div>
+        </div>
+    </div>
+    <!-- hero banner -->
+
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <!--right banner-->
+                <div class="col-md-6">
+                    <div class="lable">
+                        <h1>نرخ <span style="color:#C98A36;">امروز</span></h1>
+                        <p>آخرین نرخ امروز و فروش ارزهای معتبر</p>
+                        <button class="btn btn-primary">به روزومطمئن<i class="bi bi-graph-up-arrow"></i></button>
+                    </div>
+
+                </div>
+                <!--left banner-->
+                <div class="col-md-6">
+                    <div left-banner>
+                        <img src="img/today-rates.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--card section-->
+
+    <section class="card-section">
+        <div class="container">
+            <div class="row d-flex text-center g-3">
+                <div class="col-md-4 col-12">
+                    <a href="Money-Exchange-Services.html">
+                    <div class="card">
+                        <div class="card-lable">
+                            <i class="bi bi-arrow-down-circle"></i>
+                            <h6>نرخ خرید</h6>
+                            <p>بهترین نرخ خرید ارز</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <a href="Money-Exchange-Services.html">
+                    <div class="card">
+                        <div class="card-lable">
+                            <i class="bi bi-arrow-up-circle"></i>
+                            <h6>نرخ فروش</h6>
+                            <p>فروش ارز بانرخ روز</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <a href="Money-Exchange-Services.html">
+                    <div class="card">
+                        <div class="card-lable">
+                            <i class="bi bi-arrow-repeat"></i>
+                            <h6>به روزرسانی لحظه</h6>
+                            <p>نرخ ها به صورت روزانه و لحظه به رورزرسانی میشود</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--=======
+    Table
+    =========-->
+
+    <section class="hero-table">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>نرخ امروز اسعار</h3>
+                    <table class="table table-hover table-striped text-center">
+                        <thead>
+                            <tr>
+                                <th>ارز</th>
+                                <th>علامت</th>
+                                <th>نرخ خرید</th>
+                                <th>نرخ فروش</th>
+                                <th>آخرین بروزرسانی</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>دالرامریکا </td>
+                                <td> <span class="fi fi-us"></span> USD</td>
+                                <td>64.50</td>
+                                <td>64.55</td>
+                                <td>امروز 10 صبح</td>
+                            </tr>
+                            <tr>
+                                <td>یورو </td>
+                                <td> <span class="fi fi-eu"></span> EUR</td>
+                                <td>73.90</td>
+                                <td>74</td>
+                                <td>امروز 10 صبح</td>
+                            </tr>
+                            <tr>
+                                <td>درهم امارات</td>
+                                <td> <span class="fi fi-ae"></span> AED</td>
+                                <td>17</td>
+                                <td>17.10</td>
+                               <td>امروز 10 صبح</td>
+                            </tr>
+                            <tr>
+                                <td>پوندبریتانیا</td>
+                                <td><span class="fi fi-gp"></span> GBP </td>
+                                <td>17</td>
+                                <td>17.10</td>
+                                <td>امروز 10 صبح</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tantion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tantion">
+                        <h1>توجه <i class="bi bi-info-circle"></i></h1>
+                        <p>نرخ های درج شده ممکن است در طول روز تغیر کنند. برای دریافت نرخ نهایی 
+                            با صرافی تماس بگیرید.
+                        </p>
+                    </div>
+                </div>
+                <button class="btn btn-phone"><a href="contact.html">تماس باما</a><i class="bi bi-telephone-fill"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-logo">
+                        <img src="img/logo.jpg" width="200" alt="">
+                    </div>
+                    <p class="footer-content">ارایه خدماتی سریع و مطمین درانتقال وتبدیل اسعار</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="footer-heading">لینک ها:</div>
+                    <ul class="footer-link">
+                        <li><a href="#">خانه</a></li>
+                        <li><a href="#">خدمات ما</a></li>
+                        <li><a href="#">نرخ اسعارما</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">تماس باما</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 link">
+                    <div class="footer-heading">آدرس:</div>
+                    <p class="footer-content">غزنی کلاه سبز مارکیت خراسان غزنه بلاک سوم دکان نمبر132-133</p>
+                    <a href="tel:+93 700 544 097">
+                        <i class="bi bi-telephone-fill me-1"></i>0798375254</a>
+                    <br>
+                    <a href="mailto:darybi@gmail.com">
+                        <i class="bi bi-envelope-fill me-1"></i>Daryabi2020@gmail.com</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-time">تایم کاری:</div>
+                    <p class="time-work"> شنبه تا پنجشنبه: 8-7</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-end d-flex text-center justify-content-center">
+                    <p>Daryabi2020 Exchange. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<!--js file-->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>
