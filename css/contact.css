@@ -47,6 +47,7 @@ body {
     border: 1px solid #e9c912;
     box-shadow: 0 0 10px rgba(224, 221, 5, 0.34);
     font-family: Arial, sans-serif;
+    transition: 0,3s;
 }
 .from:hover{
     transform: translateY(-6px);

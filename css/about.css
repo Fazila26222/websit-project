@@ -43,15 +43,8 @@ body {
     background: var(--primary);
     border-radius: var(--radius);
     border: none;
-
+transition: 0.5s;
 }
-
-.btn-information a {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
 .btn-information:hover {
     background: var(--secondary);
     box-shadow: var(--primary-hover) !important;
@@ -71,10 +64,16 @@ body {
     box-shadow: var(--shadow-lg);
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
-.image:hover {
-    transform: translateY(-3px);
+.image-inner img {
+    max-width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+.image-inner img:hover{
+    transform:scale(1.02);
 }
 
 /*=============
@@ -132,6 +131,7 @@ body {
     object-fit: cover;
     transition: var(--transition);
     cursor: pointer !important;
+    transition: 0.5s;
 }
 
 .cards:hover {
@@ -186,6 +186,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .LBL {

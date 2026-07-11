@@ -1,47 +1,55 @@
-
-.hero{
+.hero {
     background-color: var(--dark);
     background-size: cover;
     background-position: center;
     display: flex;
 }
-.Image img{
+
+.Image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: 0.5s;
 }
-.Image img:hover{
+
+.Image img:hover {
     transform: scale(1.09);
 }
-.lable{
+
+.lable {
     color: #fff;
     margin-top: 20px;
 }
-.lable h1{
+
+.lable h1 {
     font-size: 1.56rem;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
-.lable p{
-     font-size: 1rem;
+
+.lable p {
+    font-size: 1rem;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
-.btn-button{
+
+.btn-button {
     background: var(--secondary);
     border-radius: 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: 0.5s;
 }
-.btn-button:hover{
-     background: var(--primary);
-     transform: translateY(-2px);
+
+.btn-button:hover {
+    background: var(--primary);
+    transform: translateY(-6px);
 }
-.stats-card{
+
+.stats-card {
     background-color: var(--bg-section) !important;
     border-radius: var(--radius) !important;
     border: none !important;
@@ -49,14 +57,17 @@
     box-shadow: var(--shadow-md) !important;
     display: flex;
     transition: var(--transition);
-    cursor: pointer !important; 
+    cursor: pointer !important;
+    transition: 0.5s;
 }
-.stats-card:hover{
+
+.stats-card:hover {
     border-color: #010b20 !important;
     box-shadow: var(--shadow-lg) !important;
     transform: translateY(-6px)
 }
-.stat-lable{
+
+.stat-lable {
     color: #000;
     text-align: center;
     justify-content: center;
@@ -66,7 +77,7 @@
     font-family: 'Segoe UI', sans-serif;
 }
 
-.stat-lable i{
+.stat-lable i {
     display: inline-flex;
     margin-top: 10px;
     text-align: center;
@@ -78,10 +89,12 @@
     background-color: rgba(4, 26, 39, 0.45);
     color: var(--primary);
 }
-.stat-lable i:hover{
+
+.stat-lable i:hover {
     background-color: var(--secondary);
 }
-.stat-lable p{
+
+.stat-lable p {
     color: #555;
     text-align: center;
     justify-content: center;
@@ -95,11 +108,12 @@
     Currency Converter
     =====================*/
 
-#currency{
+#currency {
     background: var(--body);
     margin-top: 30px;
 }
-.head{
+
+.head {
     font-size: 1.2rem;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
@@ -107,8 +121,10 @@
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    transition: 0.5s;
 }
-.head::after{
+
+.head::after {
     content: '';
     display: block;
     width: 50px;
@@ -117,8 +133,9 @@
     margin-right: 150px;
     background-color: var(--secondary);
 }
-.info{
-   font-size: 0.99rem;
+
+.info {
+    font-size: 0.99rem;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     color: #555;
@@ -127,7 +144,8 @@
     justify-content: center;
     margin-top: 20px;
 }
-.btn-info{
+
+.btn-info {
     background: var(--primary);
     color: #fff;
     border-radius: 10px;
@@ -138,12 +156,15 @@
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    transition: 0.5s;
 }
-.btn-info:hover{
+
+.btn-info:hover {
     background-color: var(--dark);
     transform: translateY(-5px);
 }
-.currency-card{
+
+.currency-card {
     background-color: var(--bg-section) !important;
     border-radius: var(--radius) !important;
     border: none !important;
@@ -152,41 +173,46 @@
     box-shadow: var(--shadow-md) !important;
     overflow: hidden;
     transition: var(--transition);
-    cursor: pointer !important; 
+    cursor: pointer !important;
     position: relative;
     object-fit: contain;
 }
-.currency-card img{
+
+.currency-card img {
     width: 100%;
     height: auto;
     object-fit: cover;
-   display: block;
+    display: block;
 }
-.currency-card:hover{
+
+.currency-card:hover {
     border-color: #010b20 !important;
     box-shadow: var(--shadow-lg) !important;
     transform: translateY(-6px)
 }
-.heading{
+
+.heading {
     text-align: center;
     align-items: center;
     justify-content: center;
 }
-.heading h6{
+
+.heading h6 {
     font-size: 1.2rem !important;
     font-weight: 600 !important;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
- /*=================
+/*=================
     Currency
 ======================*/
-.Currency{
+.Currency {
     background: var(--body);
     padding: 40px 0;
 }
-.Heading{
+
+.Heading {
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
@@ -194,35 +220,17 @@
     justify-content: center;
     margin-top: 20px;
 }
-.description{
-    color: #555;
-     font-size: 0.89rem;
-    font-weight: 500;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.btn-des{
-    background: var(--primary);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
 
-}
-.btn-des a{
-    color: #fff;
+.description {
+    color: #555;
     font-size: 0.89rem;
     font-weight: 500;
-    text-decoration: none;
-    text-align: center !important;
-    align-items: center !important;
-    justify-content: center !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-.btn-des:hover{
-    background: var(--dark);
-    transform: translateY(-5px);
-}
-.card{
+
+.card {
     background: var(--bg-section);
     border-radius: var(--radius);
     overflow: hidden;
@@ -234,34 +242,39 @@
     padding: 20px;
     margin-top: 20px;
 }
-.card:hover{
+
+.card:hover {
     transform: translateY(-6px);
     box-shadow: var(--shadow-lg);
 }
-.card-top{
+
+.card-top {
     height: 100px;
     background: var(--primary);
-    clip-path: polygon(0 0,100% 0, 100% 70%,0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card-top img{
+
+.card-top img {
     width: 70px;
     height: 70px;
-    border-radius:50% !important;
+    border-radius: 50% !important;
     object-fit: contain;
     margin-bottom: 15px;
     background: #fff;
     padding: 5px;
 }
-.card-body h3{
+
+.card-body h3 {
     font-size: 1.5rem;
     font-weight: 700;
     font-family: Arial, sans-serif;
     margin-top: 20px;
 }
-.card-body p{
+
+.card-body p {
     font-size: 2rem;
     font-weight: 700;
     font-family: Arial, sans-serif;
@@ -269,37 +282,42 @@
     color: var(--primary);
 }
 
-.card-body h6{
+.card-body h6 {
     font-size: 1.5rem;
     font-weight: 700;
     font-family: Arial, sans-serif;
     margin-top: 20px;
 }
-.rate-change{
+
+.rate-change {
     font-size: 1.5rem;
     font-weight: 500;
     font-family: Arial, sans-serif;
     margin-top: 20px;
 }
-.card-Top{
+
+.card-Top {
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-.card-Top h2{
+
+.card-Top h2 {
     font-size: 1.5rem;
     font-weight: 700;
     font-family: Arial, sans-serif;
     margin-top: 20px;
 }
-.card-Top p{
+
+.card-Top p {
     font-size: 0.98rem;
     font-weight: 600;
     font-family: Arial, sans-serif;
     margin-top: 20px;
     color: #555;
 }
-.card-Body{
+
+.card-Body {
     display: block;
     justify-content: end;
     align-items: end;
@@ -310,22 +328,24 @@
     text-align: right;
     padding: 10px;
 }
-.card-Body .rate i{
+
+.card-Body .rate i {
     gap: 20px !important;
     margin: 20px 10px;
 }
-.card-Body .rate i:hover{
+
+.card-Body .rate i:hover {
     color: var(--secondary) !important;
 }
 
 
 /*ُsection*/
 
-.image{
+.image {
     border-radius: 24px;
-    background: linear-gradient(145deg, #eff6ff,#dbeafe,#ede9fe);
+    background: linear-gradient(145deg, #eff6ff, #dbeafe, #ede9fe);
     min-height: 430px;
-    max-width:430px ;
+    max-width: 430px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -334,23 +354,35 @@
     overflow: hidden;
     box-shadow: var(--shadow-lg);
 }
-.section-title h1{
+.image-inner img {
+    max-width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+.image-inner img:hover{
+    transform: translateY(-6px);
+}
+
+.section-title h1 {
     margin-top: 20px;
 }
-.section-sub{
+
+.section-sub {
     color: #555;
 }
-.why-feature h6{
+
+.why-feature h6 {
     font-size: 1.35rem;
     font-weight: 500;
 }
-.why-feature p{
+
+.why-feature p {
     font-size: 0.98rem;
     font-weight: 500;
     color: #555;
 }
 
-.why-icons i{
+.why-icons i {
     background: var(--text-scendary);
     color: #fff;
     display: inline-flex;
@@ -360,60 +392,35 @@
     width: 50px;
     height: 50px;
     border-radius: 30%;
+    transition: 0.5s;
 }
-.why-feature:hover .why-icons i{
-    background-color: var(--dark) !important;
-}
-.divider-section{
-    background: var(--dark);
-    padding: 40px 20px;
-    border-radius: 5px;
-    margin-top: 30px;
-}
-.icons{
-    color: #fff;
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30%;
-}
-.stat-num{
-    flex-direction: row;
-    color: #fff;
-    font-size: 1.67rem;
-    font-weight: 800;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
 
+.why-feature:hover .why-icons i {
+    background-color: var(--dark) !important;
+    transform: translateY(-6px);
 }
-.stats-lable{
-    flex-direction: row;
-    color: #fff;
-    font-size:1.25rem ;
-    font-weight: 600;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
+
+
 /* ================
    Branches section
    ================
 */
-#Branches{
+#Branches {
     background-color: var(--body);
     padding-bottom: 30px;
 }
-.section-tital{
+
+.section-tital {
     margin-top: 40px;
     font-size: 1.50rem;
     font-weight: 400;
 }
-.section-Sub{
+
+.section-Sub {
     font-size: 1rem;
 }
-.bran-card{
+
+.bran-card {
     background: var(--bg-section);
     border-radius: var(--radius);
     overflow: hidden;
@@ -422,25 +429,30 @@
     height: 100%;
     position: relative;
 }
-.bran-card img{
+
+.bran-card img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     display: block;
 }
-.bran-card:hover{
+
+.bran-card:hover {
     box-shadow: var(--shadow-lg);
     transform: translateY(-6px);
     border-color: rgba(37, 99, 235, 0.25);
 }
-.barn-thumb img{
+
+.barn-thumb img {
     width: 100%;
     height: auto;
 }
-.bran-body{
+
+.bran-body {
     padding: 20px;
 }
-.barn-title{
+
+.barn-title {
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 6px;
@@ -450,7 +462,8 @@
     justify-content: center;
     color: var(--text-primary);
 }
-.bran-sub{
+
+.bran-sub {
     font-size: 0.82rem;
     color: var(--text-scendary);
     margin-bottom: 10px;
