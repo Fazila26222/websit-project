@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/variable.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/international-branch.css">
+    <link rel="stylesheet" href="css/sell-rate.css">
 
     <!--icons and fonts file-->
     <link rel="stylesheet" href="icons/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="icons/fonts/bootstrap-icons.woff">
-    <link rel="stylesheet" href="fonts/Vazirmatn-Regular.ttf">
+    <link rel="stylesheet" href="css/flag-icons.min.css">
+    <link rel="stylesheet" href="css/flag-icons.css">
 
 </head>
+
 
 <body>
     <!--Header-->
@@ -60,7 +61,7 @@
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav align-items-center gap-1 me-3">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link ">خانه</a>
+                        <a href="index.html" class="nav-link">خانه</a>
                     </li>
 
                     <li class="nav-item">
@@ -91,7 +92,7 @@
                                 <a href="today-rates.html">نرخ امروز</a>
                             </li>
                             <li>
-                                <a href="buy-rates.html">نرخ خرید</a>
+                                <a href="buy-rate.html">نرخ خرید</a>
                             </li>
                             <li>
                                 <a href="sell-rate.html">نرخ فروش</a>
@@ -136,11 +137,11 @@
         <div class="offcanvas-body">
             <ul class="navbar-nav gap-1 mb-4">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link active">خانه</a>
+                    <a href="index.html" class="nav-link ">خانه</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="services.html" class="nav-link active">خدمات ما</a>
+                    <a href="services.html" class="nav-link">خدمات ما</a>
                     <ul class="submenu">
                         <li>
                             <a href="converter.html">تبدیل اسعار</a>
@@ -161,13 +162,13 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="rates.html" class="nav-link">نرخ اسعار ما</a>
+                    <a href="rates.html" class="nav-link ">نرخ اسعار ما</a>
                     <ul class="submenu">
                         <li>
                             <a href="today-rates.html">نرخ امروز</a>
                         </li>
                         <li>
-                            <a href="buy-rates.html">نرخ خرید</a>
+                            <a href="buy-rate.html">نرخ خرید</a>
                         </li>
                         <li>
                             <a href="sell-rate.html">نرخ فروش</a>
@@ -200,187 +201,106 @@
             </div>
         </div>
     </div>
-    <!-- Branches section -->
 
-    <section id="Branches" class="Branches-a">
+    <!-- hero banner -->
+
+    <section class="hero">
         <div class="container">
-            <div class="d-flex flex-wrap align-items-end justify-content-between mb-5 gap-3">
-                <div>
-                    <h2 class="section-tital">نمایندگی ها خارجی</h2>
-                    <p class="section-Sub">با بهره گیری از شبکه گسترده نمایندگی های خارجی,خدمات مالی و ارزی را در
-                        سطح بین المللی باسرعت,امنیت و اطمینان ارائه میکنیم.همکاری باشرکای معتبر در کشورهای مختلف این
-                        امکان را فراهم ساخته است تاانتقال وجوه,خریدوفروش ارز و سایر خدمات مالی با بالاترین استانداردهای
-                        حرفه انجام شود.نمایندگی های خارجی ما با هدف تسهیل معاملات بین المللی,کاهش زمان انجام تراکنش ها
-                        و ارائه خدماتی قابل اعتماد,همواره در کنار مشتریان هستند.ما باور داریم که اعتماد,شفافیت و کیفیت
-                        خدمات,
-                        پایه های اصلی یک همکاری موفق و پایدار است. </p>
-                </div>
-            </div>
-
-            <div class="row g-4">
-                <!--Branch 1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo.jpg" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <!-- <i class="bi bi-geo-alt locaton-icon"></i>-->
-                            <h6 class="barn-title">نمایندگی دبی</h6>
-                            <p class="bran-sub">صرافی شارجه نمبر دکان5<br>مسِول نوید دریابی
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
+            <div class="row">
+                <!--right banner-->
+                <div class="col-md-6">
+                    <div class="lable">
+                        <h1>نرخ <span style="color:#C98A36;">فروش</span></h1>
+                        <p>ما ارزهای معتبر را با بهترین نرخ روز خریداری میکنیم</p>
+                        <button class="btn btn-primary">نرخ فروش<i class="bi bi-patch-check-fill"></i></button>
                     </div>
-                </div>
-                <!--Branch 2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo1.png" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <h6 class="barn-title">نمایندگی دبی</h6>
-                            <p class="bran-sub">صرافی مارکیت دیره دبی دکان نمبر9<br>مسِول محمد داود دریابی
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!--Branch 3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo2.png" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <h6 class="barn-title">نمایندگی ایران</h6>
-                            <p class="bran-sub">صرافی مارکیت دکان نمبر24
-                                <br>مسِول محمدشریف دریابی
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
-                    </div>
-                </div>
 
-                <!--Branch 4 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo5.png" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <h6 class="barn-title">نمایندگی پاکستان</h6>
-
-                            <p class="bran-sub">کویته مریاباد مارکیت صرافی دکان نمبر23<br>
-                                مسئول حاجی محمد یاسین دریابی
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
-                    </div>
                 </div>
-
-                 <!--Branch 5 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo5.png" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <h6 class="barn-title">نمایندگی پاکستان</h6>
-
-                            <p class="bran-sub">بوروری صرافی مارکیت دکان نمبر 4<br>
-                                مسئول حاجی محمد نیسم دریابی
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Branch 7 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo6.png" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <h6 class="barn-title">نمایندگی آلمان</h6>
-                            <p class="bran-sub"> بلجیم صرافی مارکیت دکان نمبر6
-                                <br>مسِول حاجی قربانعلی
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Branch 8 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo7.png" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <h6 class="barn-title">نمایندگی آلمان</h6>
-                            <p class="bran-sub"> فرانکفورد صرافی مارکیت دکان نمبر23
-                                <br>مسِول حاجی حسین
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Branch 9 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo8.png" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <h6 class="barn-title">نمایندگی آلمان</h6>
-                            <p class="bran-sub"> ارشگورد صرافی مارکیت
-                                <br>مسِول محمد ذاکر
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Branch 10 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo3.png" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <h6 class="barn-title">نمایندگی آسترلیا</h6>
-                            <p class="bran-sub"> سیدنی صرافی مارکیت دکان نمبر 8
-                                <br>مسِول حاجی آصف
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Branch 11 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="bran-card">
-                        <div class="bran-thumb">
-                            <img src="img/logo4.png" class="img-fluid">
-                        </div>
-                        <div class="bran-body">
-                            <h6 class="barn-title">نمایندگی آسترلیا</h6>
-                            <p class="bran-sub"> ملبورن صرافی مارکیت
-                                <br>مسِول حاجی حسن
-                                <br />شرکت صرافی و خدمات پولی دریابی
-                            </p>
-                        </div>
+                <!--left banner-->
+                <div class="col-md-6">
+                    <div class="left-banner" >
+                        <img src="img/buy rates.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
+    <!--=======
+    Table
+    =========-->
+
+    <section class="hero-table">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>جدول نرخ فروش</h3>
+                    <table class="table table-hover table-striped text-center">
+                        <thead>
+                            <tr>
+                                <th>نام ارز</th>
+                                <th>کد ارز</th>
+                                <th>نرخ فروش</th>
+                                <th>آخرین بروزرسانی</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><span class="fi fi-us"></span>  دالرامریکا</td>
+                                <td> USD</td>
+                                <td>65.55</td>
+                                <td><i class="bi bi-calendar-check"></i>10جولای 2026
+                                    <i class="bi bi-clock"></i>10:30
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="fi fi-eu"></span>  یورو </td>
+                                <td> EUR</td>
+                                <td>74.55</td>
+                                <td><i class="bi bi-calendar-check"></i>10جولای 2026
+                                    <i class="bi bi-clock"></i>10:30
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="fi fi-ae"></span>  درهم امارات</td>
+                                <td> AED</td>
+                                <td>17.20</td>
+                                <td><i class="bi bi-calendar-check"></i>10جولای 2026
+                                    <i class="bi bi-clock"></i>10:30
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="fi fi-gp"></span>  پوندبریتانیا</td>
+                                <td> GBP </td>
+                                <td>18</td>
+                                <td><i class="bi bi-calendar-check"></i>10جولای 2026
+                                    <i class="bi bi-clock"></i>10:30
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--tantion-->
+   <section id="tantion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tantion">
+                        <h1>توجه <i class="bi bi-info-circle"></i></h1>
+                        <p>نرخ های درج شده ممکن است در طول روز تغیر کنند. برای دریافت نرخ نهایی 
+                            با صرافی تماس بگیرید.
+                        </p>
+                    </div>
+                </div>
+                <button class="btn btn-phone"><a href="contact.html">تماس باما</a><i class="bi bi-telephone-fill"></i></button>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer Section -->
     <section id="footer">
