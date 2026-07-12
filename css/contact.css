@@ -5,11 +5,6 @@ body {
 /*=============
     Locations
     =========== */
-.locations {
-    padding: 40px 20px;
-    border-radius: 5px;
-    margin-top: 30px;
-}
 
 .location {
     flex-direction: row;
@@ -35,6 +30,18 @@ body {
     font-weight: 500;
     font-family: Arial, sans-serif;
 }
+iframe{
+    border: 1px solid #e9c912;
+    border-radius: 15px;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+iframe:hover{
+    transform: translateY(-6px);
+}
+
 
 /*===============
     FORM CONTACT
@@ -47,7 +54,8 @@ body {
     border: 1px solid #e9c912;
     box-shadow: 0 0 10px rgba(224, 221, 5, 0.34);
     font-family: Arial, sans-serif;
-    transition: 0,3s;
+    cursor: pointer;
+    transition: 0.3s;
 }
 .from:hover{
     transform: translateY(-6px);
@@ -73,7 +81,7 @@ body {
 }
 
 .form-label button {
-    width: 80%;
+    width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -81,8 +89,10 @@ body {
     background: var(--secondary);
     color: #fff;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .form-label button:hover {
     background: var(--secondary-light);
+    transform: translateY(-3px);
 }

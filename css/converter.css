@@ -1,30 +1,42 @@
-body{
-     background: var(--text-primary) !important;
+body {
+    background: var(--text-primary) !important;
 }
-#converter{
+
+#converter {
     color: #fff;
     padding: 20px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-.Converter{
+
+.Converter {
     width: 300px;
     text-align: center;
-    border-radius: 14px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(224, 221, 5, 0.34);
     font-family: Arial, sans-serif;
     padding: 20px;
+    transition: 0.3s;
+    cursor: pointer;
 }
-.Converter i{
+
+.Converter:hover {
+    transform: translateY(-6px);
+}
+
+.Converter i {
     color: var(--secondary);
 }
-.Converter input, select{
+
+.Converter input,
+select {
     width: 100%;
     padding: 10px;
     margin: 10px 0px;
 }
-.Converter button{
+
+.Converter button {
     width: 100%;
     padding: 10px;
     background: var(--secondary-light);
@@ -32,9 +44,21 @@ body{
     border: none;
     cursor: pointer;
 }
-.Converter button:hover{
+
+.Converter button:hover {
     background: var(--secondary);
     transform: translateY(-6px);
 }
 
-
+/* left*/
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(224, 221, 5, 0.34);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.image img:hover{
+    transform: scale(1.09);
+}
