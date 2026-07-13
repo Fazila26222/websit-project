@@ -121,3 +121,7 @@ button {
     border: none;
     color: #ffffff;
 }
+button a{
+    color: #ffffff;
+    text-decoration: none;
+}

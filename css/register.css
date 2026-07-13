@@ -129,3 +129,7 @@ body{
     border: none;
     color: #ffffff;
 }
+.form button a{
+    color: #ffffff;
+    text-decoration: none;
+}
